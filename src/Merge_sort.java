@@ -50,7 +50,6 @@ public class Merge_sort {
 		
 		Merge_sort(arr,0,arr.length-1);
 		
-		printArr(arr);
-		
+		printArr(arr);	
 	}
 }

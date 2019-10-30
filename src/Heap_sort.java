@@ -61,6 +61,7 @@ public class Heap_sort {
 		int max=A[1];
 		A[1]=A[heap_size];
 		heap_size--;
+		
 		return max;
 	}
 	
@@ -82,5 +83,7 @@ public class Heap_sort {
 		System.out.println(num);
 		heap_size--;
 		printArr(A,heap_size);
+		
+		
 	}
 }
