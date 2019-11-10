@@ -2,13 +2,16 @@
 
 1)    n = 32
 
-![img](<https://user-images.githubusercontent.com/45009100/68547992-8930c100-042b-11ea-958c-be9aee1a310c.png>)![img](<https://user-images.githubusercontent.com/45009100/68547997-964db000-042b-11ea-8131-f2c0a18baf26.png>)
+![img](<https://user-images.githubusercontent.com/45009100/68547992-8930c100-042b-11ea-958c-be9aee1a310c.png>)
+
+![img](<https://user-images.githubusercontent.com/45009100/68547997-964db000-042b-11ea-8131-f2c0a18baf26.png>)
 
  
 
 2)   n =1024
 
 ![img](<https://user-images.githubusercontent.com/45009100/68548001-9d74be00-042b-11ea-9415-321a7aef9bc3.png>) 
+
 ![img](<https://user-images.githubusercontent.com/45009100/68548003-a06fae80-042b-11ea-8591-b6b05fcd6254.png>)
 
 2.  요약 정리
