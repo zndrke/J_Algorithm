@@ -2,17 +2,17 @@
 
 1)    n = 32
 
-![img](file:///C:/Users/luke/AppData/Local/Temp/msohtmlclip1/01/clip_image002.jpg)![img](file:///C:/Users/luke/AppData/Local/Temp/msohtmlclip1/01/clip_image004.jpg)
+![img](<https://user-images.githubusercontent.com/45009100/68547992-8930c100-042b-11ea-958c-be9aee1a310c.png>)![img](<https://user-images.githubusercontent.com/45009100/68547997-964db000-042b-11ea-8131-f2c0a18baf26.png>)
 
  
 
 2)   n =1024
 
-![img](file:///C:/Users/luke/AppData/Local/Temp/msohtmlclip1/01/clip_image006.jpg) ![img](file:///C:/Users/luke/AppData/Local/Temp/msohtmlclip1/01/clip_image008.jpg)
+![img](<https://user-images.githubusercontent.com/45009100/68548001-9d74be00-042b-11ea-9415-321a7aef9bc3.png>) ![img](<https://user-images.githubusercontent.com/45009100/68548003-a06fae80-042b-11ea-8591-b6b05fcd6254.png>)
 
 2.  요약 정리
 
- 
+
 
 1)  n = 32
 
@@ -32,7 +32,7 @@
 
 -    클럭 타임: 110200 , 비교횟수 : 642
 
- 
+
 
 랜덤 입력에서 빠른 순으로 나열
 
@@ -70,7 +70,7 @@ Insertion> Quick(MOT) > Merge > Quick(Random) > Heap > Quick(last)
 
 -    클럭 타임: 7988100 , 비교횟수 : 531985
 
- 
+
 
 랜덤 입력에서 빠른 순으로 나열
 
@@ -94,7 +94,7 @@ Insertion
 
 -    n이 작을 때 다른 알고리즘 보다 빠름
 
- 
+
 
 Heap
 
@@ -104,7 +104,7 @@ Heap
 
 -    다른 알고리즘에 비해 오버헤드가 적어 빠른 것으로 추측
 
- 
+
 
 Merge
 
@@ -116,7 +116,7 @@ Merge
 
 -    비교 횟수가 다른 알고리즘에 비해 적은 편
 
- 
+
 
 ​       Quick(last pivot)
 
@@ -128,7 +128,7 @@ Merge
 
 -    이미 정렬된 경우 최악의 성능을 보여줌
 
- 
+
 
 Quick(random)
 
@@ -136,7 +136,7 @@ Quick(random)
 
 -    이론적으로는 빠를 것 같으나 실제로는 Random number generator를 자주 사용해야 하기 때문에 오버헤드가 큰 것으로 추측됨
 
- 
+
 
 Quick(Median of Three)
 
@@ -146,11 +146,11 @@ Quick(Median of Three)
 
 -    단, n이 크고 Random한 입력에서는 중간 값을 구하는 연산 때문에  Last pivot 보다 느린 모습을 보임
 
- 
+
 
 3.  교훈
 
- 
+
 
  이론적으로 배운 알고리즘을 실제 코딩으로 구현하면서 이론과 실제의 차이에 대해서 알게 되었다. 이론과 실제가 다른 원인을 여러가지가 있지만 크게 오버헤드로 설명할 수 있다. 예를 들면 이론만 배웠을 때는 Quick 정렬에서 Random으로 pivot을 정하는 것이 빠를 것 같았다. random으로 pivot을 뽑을 경우 극단의 pivot을 뽑을 가능성이 매우 적어지고 따라서 빠른 알고리즘이 될 것이라고 생각했다. 하지만 실제 구현 결과 Quick 알고리즘 중에 Random이 가장 낮은 성능을 보여준다. 이는 Randomnumber generator를 사용해서 random한 pivot을 고르기 때문에 오버헤드가 큰 것으로 추측된다. 
 
