@@ -8,7 +8,8 @@
 
 2)   n =1024
 
-![img](<https://user-images.githubusercontent.com/45009100/68548001-9d74be00-042b-11ea-9415-321a7aef9bc3.png>) ![img](<https://user-images.githubusercontent.com/45009100/68548003-a06fae80-042b-11ea-8591-b6b05fcd6254.png>)
+![img](<https://user-images.githubusercontent.com/45009100/68548001-9d74be00-042b-11ea-9415-321a7aef9bc3.png>) 
+![img](<https://user-images.githubusercontent.com/45009100/68548003-a06fae80-042b-11ea-8591-b6b05fcd6254.png>)
 
 2.  요약 정리
 
