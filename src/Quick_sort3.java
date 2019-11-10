@@ -1,18 +1,24 @@
 import java.util.Random;
 
 
-//마지막을 피벗으로
-public class Quick_sort {
+public class Quick_sort3 {
 	static int count=0;
+		
+	//median of three
 	public static int Partition(int[] A, int p,int r) {
-			int pivot = A[r];
-			int i = p-1;
-			for(int j = p ; j < r ; j++) {
-				if(A[j]<=pivot) {
-					i++;
-					Swap(A,i,j);
-				}
+		
+		int q=(p+r)/2;
+		
+		int pivot = A[q];
+		Swap(A,q,r);
+		
+		int i = p-1;
+		for(int j = p ; j < r ; j++) {
+			if(A[j]<=pivot) {
+				i++;
+				Swap(A,i,j);
 			}
+		}
 
 		Swap(A,i+1,r);
 		return i+1;

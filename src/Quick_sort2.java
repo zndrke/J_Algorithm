@@ -1,11 +1,16 @@
 import java.util.Random;
 
 
-//마지막을 피벗으로
-public class Quick_sort {
+//랜덤으로 피벗
+public class Quick_sort2 {
 	static int count=0;
+	
 	public static int Partition(int[] A, int p,int r) {
-			int pivot = A[r];
+			Random random = new Random();
+			int pv = random.nextInt((r-p)+1)+p;	//랜덤으로 피벗 설정
+			
+			Swap(A,r,pv);		//맨 뒤로 옮겨서
+			int pivot = A[r];	//마지막을 피벗으로 한것과 동일
 			int i = p-1;
 			for(int j = p ; j < r ; j++) {
 				if(A[j]<=pivot) {

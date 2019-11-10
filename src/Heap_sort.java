@@ -1,7 +1,11 @@
 
 public class Heap_sort {
+	
+	static int count=0;
 		
 	private static int N;
+	
+	public static void setCount() {count=0;		}
 	public static void Heap_sort(int[] A) {	
 		//정렬 루트를 마지막 인덱스와 바꾸고 사이즈를 줄임
 		Build_Max_Heap(A);	//힙으로 만듦
@@ -46,45 +50,6 @@ public class Heap_sort {
 		int tmp=A[i];
 		A[i]=A[j];
 		A[j]=tmp;
-	}
-	
-	
-	public static void printArr(int[] arr) {
-		for (int i = 1; i < N; i++) {
-			System.out.print(arr[i] + " ");
-		}
-	}
-	
-	public static int Extract_Max(int[] A) {
-		if (N<1) {
-			System.out.print("heap underflow");
-		}
-		int max=A[1];
-		A[1]=A[N];
-		N--;
-		
-		return max;
-	}
-	
-	public static void Insert(int n) {
-		
-	}
-	
-	public static void main(String[] args) {
-		int[] A= {0,5,1,3,7,9,2,6,4,8,10,14,12,13,15};	
-		int heap_size=A.length-1;		
-		
-		//정렬
-		Heap_sort(A);
-		printArr(A);	
-		System.out.println("");
-		
-		Build_Max_Heap(A);
-		int num=Extract_Max(A);
-		System.out.println(num);
-		heap_size--;
-		printArr(A);
-		
-		
+		count++;
 	}
 }
